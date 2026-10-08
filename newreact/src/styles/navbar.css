@@ -1,0 +1,11 @@
+.nav{
+    /* background-color: blue; */
+    text-align: center;
+    display: flex;
+    gap: 40px;
+}
+
+.active{
+    text-decoration: none;
+    color: green;
+}

@@ -1,0 +1,15 @@
+.cart{
+    position: fixed;
+    top: 0;
+    right: 20px;
+    width: 300px;
+    height: 50vh;
+    border: 1px solid black;
+    overflow-y: auto;
+    background-color: green;
+}
+
+.imageStyle{
+    width: 50px;
+    height: 40px;
+}

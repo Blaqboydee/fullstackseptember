@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+
+   <% allUsers.forEach(user => { %>
+    <p><%= user.username %></p>
+    <p><%= user._id %></p>
+   <% }) %>
+
+
+    <form action="/signup" method="post">
+        <input type="text" placeholder="enter username" name="username">
+        <input type="email" placeholder="enter email" name="email">
+        <input type="password" placeholder="enter password" name="password">
+        <input type="number" placeholder="enter age" name="age">
+        <input type="checkbox" name="isStudent" value="true"> Are you a student?
+        <button type="submit">Signup</button>
+    </form>
+</body>
+</html>
